@@ -10,8 +10,8 @@ NativeScript is able to offer extremely performant list views by delegating to i
 
 The web struggles to keep up with even small data sets because the DOM has no built-in way to recycle memory usage. Hybrid frameworks attempt to compensate for this by implementing “virtual DOM” techniques, where a limited number of DOM nodes are reused as the user scrolls, but even with these techniques the performances pales in comparison to what native can offer.
 
-![](assets/nativescript-list.png)
-![](assets/hybrid-list.png)
+![](assets/nativescript-list.gif)
+![](assets/hybrid-list.gif)
 
 ## More examples
 
