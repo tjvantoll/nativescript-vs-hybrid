@@ -1,0 +1,11 @@
+<Page loaded="loaded">
+  <ActionBar title="NativeScript with 500,000 items" />
+
+  <!-- NativeScript renders this as a UITableView on iOS -->
+  <!-- NativeScript renders this as a android.widget.ListView on Android -->
+  <ListView items="{{ list }}">
+    <ListView.itemTemplate>
+      <Label text="{{ number }}" />
+    </ListView.itemTemplate>
+  </ListView>
+</Page>
